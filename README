@@ -1,0 +1,94 @@
+# KALLA
+
+KALLA is a web application built with Vue.js.
+
+## Tech Stack
+
+- Vue.js
+- JavaScript
+- Node.js and npm for tooling
+
+## Requirements
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm (included with Node.js)
+- [Git](https://git-scm.com/)
+
+Check your installed versions:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RaduNDL/KALLA.git
+cd KALLA
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local address shown in the terminal, usually `http://localhost:5173`.
+
+## Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm install` | Installs all project dependencies |
+| `npm run dev` | Starts the development server with hot reload |
+| `npm run build` | Creates an optimized production build |
+| `npm run preview` | Serves the production build locally |
+
+If a script is missing, check the `scripts` section of `package.json`.
+
+## Project Structure
+
+```text
+KALLA/
+├── public/          Static files served as-is
+├── src/             Application source code
+│   ├── assets/      Images, fonts and styles
+│   ├── components/  Reusable Vue components
+│   ├── views/       Page-level components
+│   ├── router/      Application routes
+│   ├── App.vue      Root component
+│   └── main.js      Application entry point
+├── index.html       HTML entry point
+├── package.json     Dependencies and scripts
+└── README.md        Project documentation
+```
+
+The exact layout may differ slightly depending on the project configuration.
+
+## Recommended Editor Setup
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Extension: **Vue - Official**
+
+## Production Build
+
+```bash
+npm run build
+```
+
+The optimized files are generated in the `dist` folder and can be deployed to any static hosting service.
+
+## Author
+
+Radu-Dimitri Nadolu  
+GitHub: [RaduNDL](https://github.com/RaduNDL)
